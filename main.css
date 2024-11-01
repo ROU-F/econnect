@@ -62,7 +62,6 @@ body {
   .header__logo{
     display: flex;
     justify-content: center;
-    margin-top: -100px;
   }
 
   .logo{
@@ -102,4 +101,12 @@ body {
 .main__logo{
     width: 200px;
     height: 200px;
+}
+
+@media screen and (max-width: 980px){
+  .header__logo{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+  }
 }
